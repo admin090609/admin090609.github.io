@@ -1,0 +1,120 @@
+@import "./colors.scss";
+@import "./reset.scss";
+
+body {
+  overflow-x: hidden;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #efefef;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  > .r1 {
+    line-height: 2.5vh;
+    padding: 2.5vh 10vh;
+
+    @media only screen and (max-width: 1024px) {
+      line-height: 3vh;
+    }
+
+    > .title {
+      font-size: 2vh;
+      font-weight: 500;
+      margin: 2vh 2vh;
+
+      @media only screen and (max-width: 1024px) {
+        font-size: 3vh;
+      }
+    }
+
+    > div {
+      > a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.75vh;
+
+        @media only screen and (max-width: 1024px) {
+          font-size: 2.5vh;
+        }
+      }
+    }
+  }
+
+  > .r2 {
+    line-height: 2.5vh;
+    padding: 2.5vh 10vh;
+
+    @media only screen and (max-width: 1024px) {
+      line-height: 3vh;
+    }
+
+    > .title {
+      font-size: 2vh;
+      font-weight: 500;
+      margin: 2vh 2vh;
+
+      @media only screen and (max-width: 1024px) {
+        font-size: 3vh;
+      }
+    }
+
+    > div {
+      font-size: 1.75vh;
+      @media only screen and (max-width: 1024px) {
+        font-size: 2.25vh;
+      }
+      > a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+
+  > .r3 {
+    line-height: 2.5vh;
+    padding: 2.5vh 10vh;
+
+    @media only screen and (max-width: 1024px) {
+      line-height: 3vh;
+    }
+
+    > .title {
+      font-size: 2vh;
+      font-weight: 500;
+      margin: 2vh 2vh;
+
+      @media only screen and (max-width: 1024px) {
+        font-size: 3vh;
+      }
+    }
+
+    > .images {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+
+      > a {
+        > img {
+          width: 45px;
+          margin: 1vh 1vh;
+          @media only screen and (max-width: 1024px) {
+            width: 35px;
+          }
+        }
+      }
+    }
+  }
+}

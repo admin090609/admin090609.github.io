@@ -1,0 +1,262 @@
+@import "./colors.scss";
+@import "./reset.scss";
+
+body{
+  overflow-y: scroll ;
+}
+
+.part1 {
+  margin: 5vh auto;
+
+  @media only screen and (max-width: 1024px) {
+    position: relative;
+  }
+
+  h1 {
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: -5vh;
+    font-size: 5vh;
+    text-align: center;
+    background-image: linear-gradient(
+      to bottom right,
+      #ffffff 0%,
+      #ffffffe1 60%,
+      #ffffff36 100%
+    );
+    border-radius: 1vh;
+    padding: 1vh .7vh;
+    @media only screen and (max-width: 1024px) {
+      font-size: 3vh;
+      margin-left: 2vh;
+      margin-top: 2vh;
+      padding: .7vh .7vh;
+      position: absolute;
+    }
+  }
+
+  img {
+    width: 65vh;
+    border-radius: 1.5vh;
+    display: block;
+    margin: auto;
+
+    @media only screen and (max-width: 1024px) {
+      width: 75%;
+      height: 75%;
+      margin: auto;
+    }
+  }
+
+  p {
+    margin-top: 2vh;
+    text-align: center;
+    margin-left: 3vh;
+    line-height: normal;
+    max-width: 650px;
+    justify-content: center;
+    display: flex;
+    margin: 2vh auto;
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 2vh;
+      padding: 2vh;
+    }
+  }
+}
+
+.part3 {
+  padding: 5vh;
+
+  h1 {
+    font-size: 3vh;
+    text-align: center;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 2.5vh;
+    }
+  }
+
+  p {
+    margin-top: 2vh;
+    text-align: center;
+    line-height: normal;
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 2vh;
+    }
+  }
+}
+
+.part4 {
+  display: flex;
+  justify-content: center;
+  padding: 5vh;
+  position: relative;
+
+  @media only screen and (max-width: 1024px) {
+    display: initial;
+  }
+
+  
+  >.box {
+    display: inline;
+    padding: 7vh;
+
+    @media only screen and (max-width: 1024px) {
+      display: block;
+    }
+
+    h1 {
+      font-size: 3vh;
+      padding: 0.5vh;
+
+      @media only screen and (max-width: 1024px) {
+        text-align: center;
+        font-size: 2.5vh;
+      }
+    }
+
+    > p {
+      padding: 1vh 0 3vh;
+      line-height: normal;
+      max-width: 550px;
+
+      @media only screen and (max-width: 1024px) {
+        text-align: center;
+        font-size: 2vh;
+      }
+    }
+
+    a {
+      cursor: pointer;
+      background: #489fb5;
+      width: 25vh;
+      border: none;
+      outline: none;
+      color: #fff;
+      height: 50px;
+      border-radius: 20vh;
+      top: 70%;
+      left: 61%;
+      display: block;
+      justify-content: center;
+      text-decoration: none;
+      text-align: center;
+      line-height: 50px;
+
+      @media only screen and (max-width: 1024px) {
+        display: flex;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .image {
+    display: inline;
+    @media only screen and (max-width: 1024px){
+      justify-content: center;
+        display: flex;
+    }
+    img {
+      width: 65vh;
+      border-radius: 1.5vh;
+
+      @media only screen and (max-width: 1024px) {
+        width: 90%;
+        height: 75%;
+        
+      }
+    }
+  }
+}
+
+.axe {
+  display: flex;
+  max-width: 950px;
+  position: relative;
+  margin: 0 auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  @media only screen and (max-width: 1024px) {
+    overflow-x: scroll;
+    margin: 0 0;
+  }
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 780px;
+    height: 3px;
+    background-color: black;
+    top: 80px;
+    transform: translate(8%, 8%);
+  }
+
+  > div {
+    flex: 1;
+    margin-right: 90px;
+    position: relative;
+    padding: 0 30px;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 45px;
+      height: 30px;
+      position: absolute;
+      top: 66px;
+      background-image: url(/image/axa.png);
+      background-size: 45px 30px;
+      margin-left: 3vh;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    > span {
+      font-size: 48px;
+      font-weight: 600;
+      color: gray;
+      overflow: hidden;
+    }
+
+    > p {
+      margin-top: 60px;
+      text-align: center;
+    }
+  }
+}
+
+.desc {
+  padding-top: 3vh;
+
+  div {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(129, 129, 129, 0.844);
+  }
+
+  > .d1 {
+    position: absolute;
+    left: 32%;
+  }
+
+  > .d2 {
+    position: absolute;
+    left: 42%;
+  }
+
+  > .d3 {
+    position: absolute;
+    left: 53%;
+  }
+
+  > .d4 {
+    position: absolute;
+    left: 65%;
+  }
+}
