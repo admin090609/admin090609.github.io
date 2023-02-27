@@ -229,7 +229,9 @@ body {
     font-size: 14px;
     margin-top: 2vh;
     max-width: 20vh;
-    padding: 0 0vh;
+    padding: 0 0;
+    margin-left: 3.9vh;
+    margin-right: 3.9vh;
   }
 }
 @media only screen and (max-width: 375px) {

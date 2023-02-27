@@ -57,7 +57,7 @@ function setTotal() {
   document.getElementById("subtotal").innerText = `${totalAmount} Lei`;
   document.getElementById("shippingPrice").innerText = shippingPrice
     ? `${shippingPrice} Lei`
-    : "Free";
+    : "Gratis";
   document.getElementById("total").innerText = `${
     totalAmount + shippingPrice
   } Lei`;
