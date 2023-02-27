@@ -228,7 +228,8 @@ body {
   .cart > table > tbody > tr > td > .product_name {
     font-size: 15px;
     margin-top: 2vh;
-    padding: 0 2.5vh;
+    max-width: 22.5vh;
+    padding: 0 0vh;
   }
 }
 .cart > table > tbody > tr > td > .product_name > a {
@@ -259,14 +260,15 @@ body {
 }
 @media only screen and (max-width: 1024px) {
   .cart > table > tbody > tr > td > .product_price_final {
-    margin-right: -250%;
+    max-width: 250%;
+    padding: 2vh 2vh;
   }
 }
-.cart > table > tbody > tr > td > .sub {
+.cart > table > tbody > tr > td > .product_price_final > .sub {
   display: none;
 }
 @media only screen and (max-width: 1024px) {
-  .cart > table > tbody > tr > td > .sub {
+  .cart > table > tbody > tr > td > .product_price_final > .sub {
     display: initial;
   }
 }

@@ -388,7 +388,7 @@ const products = [
     image: "cookies3.png",
     image1: "cookies4.png",
     home: true,
-    name: "Biscuiți",
+    name: "Biscuiți cu fulgi de ciocolată",
     pret1: "34.00",
     kg1: "0.4kg",
     cantitate: 1,
