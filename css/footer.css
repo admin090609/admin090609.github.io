@@ -171,13 +171,13 @@ footer > .r1 {
   }
 }
 footer > .r1 > .title {
-  font-size: 2vh;
+  font-size: 25px;
   font-weight: 500;
   margin: 2vh 2vh;
 }
 @media only screen and (max-width: 1024px) {
   footer > .r1 > .title {
-    font-size: 3vh;
+    font-size: 30px;
   }
 }
 footer > .r1 > div {
