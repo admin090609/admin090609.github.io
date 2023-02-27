@@ -229,6 +229,7 @@ body {
 @media only screen and (max-width: 1024px) {
   .bgmain > div > a {
     margin-top: 50px;
+    width: 45%;
   }
 }
 
