@@ -181,22 +181,12 @@ footer > .r1 > .title {
   }
 }
 footer > .r1 > div {
-  margin-bottom: 12px;
-}
-@media only screen and (max-width: 1024px) {
-  footer > .r1 > div {
-    margin-bottom: 15px;
-  }
+  line-height: 2.5rem;
 }
 footer > .r1 > div > a {
   text-decoration: none;
   color: black;
-  font-size: 1.75vh;
-}
-@media only screen and (max-width: 1024px) {
-  footer > .r1 > div > a {
-    font-size: 2.5vh;
-  }
+  font-size: 20px;
 }
 footer > .r2 {
   line-height: 2.5vh;
@@ -208,34 +198,23 @@ footer > .r2 {
   }
 }
 footer > .r2 > .title {
-  font-size: 2vh;
+  font-size: 25px;
   font-weight: 500;
   margin: 2vh 2vh;
 }
 @media only screen and (max-width: 1024px) {
   footer > .r2 > .title {
-    font-size: 3vh;
+    font-size: 30px;
   }
 }
 footer > .r2 > div {
-  margin-bottom: 12px;
-  font-size: 1.75vh;
-}
-@media only screen and (max-width: 1024px) {
-  footer > .r2 > div {
-    font-size: 2.25vh;
-    margin-bottom: 15px;
-  }
+  font-size: 20px;
+  line-height: 2.5rem;
 }
 footer > .r2 > div > a {
   text-decoration: none;
   color: black;
-  font-size: 1.75vh;
-}
-@media only screen and (max-width: 1024px) {
-  footer > .r2 > div > a {
-    font-size: 2.5vh;
-  }
+  font-size: 20px;
 }
 footer > .r3 {
   line-height: 2.5vh;
@@ -247,13 +226,13 @@ footer > .r3 {
   }
 }
 footer > .r3 > .title {
-  font-size: 2vh;
+  font-size: 25px;
   font-weight: 500;
   margin: 2vh 2vh;
 }
 @media only screen and (max-width: 1024px) {
   footer > .r3 > .title {
-    font-size: 3vh;
+    font-size: 30px;
   }
 }
 footer > .r3 > .images {
