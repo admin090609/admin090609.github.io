@@ -77,8 +77,11 @@ body {
             @media only screen and (max-width: 1024px) {
               font-size: 15px;
               margin-top: 2vh;
-              max-width: 22.5vh;
+              max-width: 20vh;
               padding: 0 0vh;
+            }
+            @media only screen and (max-width: 375px){
+              max-width: 17vh;
             }
             > a {
               color: black;
@@ -138,6 +141,10 @@ body {
                 width: 27.5px;
                 height: 27.5px;
               }
+              @media only screen and (max-width: 375px){
+                width: 22.5px;
+                height: 22.5px;
+              }
             }
             > .number {
               font-size: 25px;
@@ -158,6 +165,10 @@ body {
               @media only screen and (max-width: 1024px) {
                 width: 27.5px;
                 height: 27.5px;
+              }
+              @media only screen and (max-width: 375px){
+                width: 22.5px;
+                height: 22.5px;
               }
             }
           }

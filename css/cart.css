@@ -228,8 +228,13 @@ body {
   .cart > table > tbody > tr > td > .product_name {
     font-size: 15px;
     margin-top: 2vh;
-    max-width: 22.5vh;
+    max-width: 20vh;
     padding: 0 0vh;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .cart > table > tbody > tr > td > .product_name {
+    max-width: 17vh;
   }
 }
 .cart > table > tbody > tr > td > .product_name > a {
@@ -300,6 +305,12 @@ body {
     height: 27.5px;
   }
 }
+@media only screen and (max-width: 375px) {
+  .cart > table > tbody > tr > td > .counter > .minus {
+    width: 22.5px;
+    height: 22.5px;
+  }
+}
 .cart > table > tbody > tr > td > .counter > .number {
   font-size: 25px;
   font-weight: 600;
@@ -323,6 +334,12 @@ body {
   .cart > table > tbody > tr > td > .counter > .plus {
     width: 27.5px;
     height: 27.5px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .cart > table > tbody > tr > td > .counter > .plus {
+    width: 22.5px;
+    height: 22.5px;
   }
 }
 @media only screen and (max-width: 1024px) {
