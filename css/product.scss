@@ -71,7 +71,8 @@ body {
           font-size: 25px;
           font-weight: 600;
           @media only screen and (max-width: 1024px) {
-            font-size: 15px;
+            font-size: 22.5px;
+            font-weight: 700;
           }
         }
 
@@ -86,7 +87,9 @@ body {
           justify-content: center;
           display: flex;
           text-align: center;
-          margin: 2vh;  
+          margin: 2vh; 
+          line-height: 20px; 
+         
         }
         .number {
           margin:0 -10px
@@ -104,6 +107,7 @@ body {
           text-align: center;
           justify-content: center;
           display: flex;
+          line-height: 20px;
         }
       }
 

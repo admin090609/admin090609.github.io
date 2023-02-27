@@ -205,7 +205,8 @@ body {
 }
 @media only screen and (max-width: 1024px) {
   .produs > div:first-of-type > .block_count > div {
-    font-size: 15px;
+    font-size: 22.5px;
+    font-weight: 700;
   }
 }
 .produs > div:first-of-type > .block_count > .input_minus {
@@ -220,6 +221,7 @@ body {
   display: flex;
   text-align: center;
   margin: 2vh;
+  line-height: 20px;
 }
 .produs > div:first-of-type > .block_count .number {
   margin: 0 -10px;
@@ -236,6 +238,7 @@ body {
   text-align: center;
   justify-content: center;
   display: flex;
+  line-height: 20px;
 }
 .produs > div:first-of-type > .add-cart {
   position: relative;
