@@ -218,7 +218,7 @@ body {
 @media only screen and (max-width: 1024px) {
   .cart > table > tbody > tr > td > .photo {
     max-width: 100px;
-    padding: 2vh;
+    padding: 2vh 0.2vh;
   }
 }
 .cart > table > tbody > tr > td > .product_name {

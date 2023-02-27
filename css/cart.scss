@@ -69,7 +69,7 @@ body {
             padding: 5vh;
             @media only screen and (max-width: 1024px) {
               max-width: 100px;
-              padding: 2vh;
+              padding: 2vh 0.2vh;
             }
           }
           > .product_name {
