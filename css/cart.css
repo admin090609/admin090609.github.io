@@ -235,6 +235,8 @@ body {
 @media only screen and (max-width: 375px) {
   .cart > table > tbody > tr > td > .product_name {
     max-width: 17vh;
+    padding: 0 0;
+    font-size: 12.5px;
   }
 }
 .cart > table > tbody > tr > td > .product_name > a {
@@ -309,6 +311,12 @@ body {
   .cart > table > tbody > tr > td > .counter > .minus {
     width: 22.5px;
     height: 22.5px;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .cart > table > tbody > tr > td > .counter > .minus {
+    width: 20px;
+    height: 20px;
   }
 }
 .cart > table > tbody > tr > td > .counter > .number {
