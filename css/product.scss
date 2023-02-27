@@ -80,15 +80,16 @@ body {
           border: none;
           border-radius: 50%;
           box-shadow: 2px 2px 2px 2px rgb(206, 206, 206);
-          width: 10px;
-          height: 10px;
+          width: 20px;
+          height: 20px;
           cursor: pointer;
+          justify-content: center;
+          display: flex;
           text-align: center;
-          padding-top: 2vh;
-          line-height: 12px;
+          margin: 2vh;  
         }
         .number {
-          padding-right: 0;
+          margin:0 -10px
         }
 
         > .input_plus {
@@ -97,11 +98,12 @@ body {
           border-radius: 50%;
           box-shadow: 2px 2px 2px 2px rgb(206, 206, 206);
           margin: 2vh;
-          width: 10px;
-          height: 10px;
-          line-height: 10px;
+          width: 20px;
+          height: 20px;
           cursor: pointer;
           text-align: center;
+          justify-content: center;
+          display: flex;
         }
       }
 

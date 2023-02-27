@@ -42,11 +42,14 @@ footer {
     }
 
     > div {
+      font-size: 20px;
       line-height: 2.5rem;
       > a {
         text-decoration: none;
         color: black;
-        font-size: 20px;
+        &:hover{
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -75,7 +78,9 @@ footer {
       > a {
         text-decoration: none;
         color: black;
-        font-size: 20px;
+        &:hover{
+          text-decoration: underline;
+        }
       }
     }
   }

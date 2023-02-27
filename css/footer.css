@@ -181,12 +181,15 @@ footer > .r1 > .title {
   }
 }
 footer > .r1 > div {
+  font-size: 20px;
   line-height: 2.5rem;
 }
 footer > .r1 > div > a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+}
+footer > .r1 > div > a:hover {
+  text-decoration: underline;
 }
 footer > .r2 {
   line-height: 2.5vh;
@@ -214,7 +217,9 @@ footer > .r2 > div {
 footer > .r2 > div > a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+}
+footer > .r2 > div > a:hover {
+  text-decoration: underline;
 }
 footer > .r3 {
   line-height: 2.5vh;
