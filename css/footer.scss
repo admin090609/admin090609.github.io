@@ -41,6 +41,10 @@ footer {
     }
 
     > div {
+      margin-bottom: 12px;
+      @media only screen and (max-width: 1024px){
+        margin-bottom: 15px;
+      }
       > a {
         text-decoration: none;
         color: black;
@@ -72,13 +76,19 @@ footer {
     }
 
     > div {
+      margin-bottom: 12px;
       font-size: 1.75vh;
       @media only screen and (max-width: 1024px) {
         font-size: 2.25vh;
+        margin-bottom: 15px;
       }
       > a {
         text-decoration: none;
         color: black;
+        font-size: 1.75vh;
+        @media only screen and (max-width: 1024px) {
+          font-size: 2.5vh;
+        }
       }
     }
   }
