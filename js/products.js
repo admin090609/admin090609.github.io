@@ -337,7 +337,7 @@ const products = [
       "O brioșă din ou, lapte, unt topit, praf de cacao, care pot fi servite simple sau pot fi pudrate cu zahăr pudră, acoperite cu glazură de ciocolată, 15 Bucăți",
     image: "Muffin_cu_cioburi_de_ciocolată.png",
     image1: "muf_cioc.png",
-    name: "Muffin cu Ciocuri de Ciocolată",
+    name: "Muffin cu Cioburi de Ciocolată",
     pret1: "120.00",
     kg1: "buc.",
     cantitate: 1,
