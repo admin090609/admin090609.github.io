@@ -226,7 +226,7 @@ body {
 }
 @media only screen and (max-width: 1024px) {
   .cart > table > tbody > tr > td > .product_name {
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 2vh;
     max-width: 20vh;
     padding: 0 0vh;
