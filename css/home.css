@@ -221,6 +221,7 @@ body {
   margin-top: 50px;
   font-weight: 400;
   box-shadow: rgba(72, 159, 181, 0.2941176471) 0px 1.4vh 2.8vh, rgba(72, 159, 181, 0.0901960784) 0px 1vh 1vh;
+  text-align: center;
 }
 .bgmain > div > a:hover {
   background-color: rgba(72, 159, 181, 0.7960784314);
